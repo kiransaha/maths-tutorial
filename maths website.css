@@ -1,0 +1,144 @@
+#container{
+    width:1050px;
+   # border:1px solid grey;
+    margin:0 auto}
+
+.header{
+    
+     height:100px;
+}
+
+
+.maths{
+    float:left}
+
+h1 a{font-size:50px;
+    font-weight: 100;
+color:rebeccapurple;
+text-decoration:none}
+
+.search{
+    float:right;
+    background:linear-gradient(to bottom right,purple,white);
+    width:350px;
+    height:50px;
+    margin-top:30px;
+    padding:10px 10px 0px 10px;
+    
+}
+
+.submit{float:right;
+    background-color:darkseagreen;
+color: purple
+}
+
+.input{
+    color:crimson;
+    font-family: fantasy
+}
+
+.menu ul{list-style:none;
+padding:30px
+}
+
+.menu ul li{
+    float:left
+}
+
+.clear{clear:both}
+
+.menu ul li a{
+    
+    text-decoration: none;
+    padding: 40px;
+    color:blueviolet;
+    text-transform: uppercase;
+    font-size:15px;
+    transition: font-size 0.4s ease;
+
+}
+
+.menu ul li a:hover,.menu ul li a.active{
+    
+    font-size: 18px;
+    font-weight:bold;
+}
+.menu{
+    background:linear-gradient(#F8F594,#D5D533);
+    height:70px;
+}
+
+.menu ul li a:visited{
+    
+    color:darkslategray;
+    
+}
+.menu ul li a:active{
+    
+    color:crimson
+}
+
+.content{background:linear-gradient(#E5F2BB,#B7E952);
+padding:30px;
+margin: 16px 0}
+
+.head{padding:30px 0px 15px 15px;
+color:#316901;
+    font-weight: normal;
+    font-family:serif
+}
+
+.paragraph{font-size: 20px;
+font-family: fantasy;
+color:#628F19;
+text-align: justify}
+
+.sidebar ul li a{text-decoration:none;
+color:purple;
+transition:font-size 0.3s ease;
+
+}
+
+.sidebar ul li{padding-bottom: 10px;
+list-style: none;}
+
+#leftbar{border:1px solid green;
+width:500px;
+height:550px;
+border-radius:20px;
+float:left}
+
+#leftbar ul li{
+list-style-image:url(Logomakr_0sjtsw.png);
+    padding-left: 15px;
+}
+#rightbar ul li{
+    list-style-image: url(Logomakr_4Qlf41.png);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.h4{padding: 20px 0 0 25px;
+color:blueviolet}
+
+#rightbar{border:1px solid green;
+width:500px;
+height:550px;
+border-radius:20px;
+float:right}
+
+.sidebar ul li a:hover{
+
+    font-size: 25px;
+    color:darkmagenta;
+}
+
+#leftbar{margin-bottom: 20px}
+
+#rightbar{margin-bottom: 20px;}
+.copyright{
+    background:linear-gradient(#F8F594,#D5D533);
+    height:80px;
+    padding:12px 30px;
+    
+}
